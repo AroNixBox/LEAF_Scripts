@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd6b59b2e9851944a50be9e4972bec3, type: 3}
+  m_Name: "\xD6ffentliches Bildungszentrum"
+  m_EditorClassIdentifier: 
+  BaseBuildingInformation:
+    <Name>k__BackingField: "\xF6ffentliches Bildungszentrum"
+    <Cost>k__BackingField: 10000
+    <Description>k__BackingField: "Ein Zentrum zum Bilden und weiterentwickeln deiner
+      B\xFCrger und B\xFCrgerinnen."
+    Modifiers:
+      SatisfactionIncrease: 8
+      <Income>k__BackingField: 200
+    <Prefab>k__BackingField: {fileID: 1824003435095028650, guid: d36071dd7b4bdb64ab1fbc64b02feab1, type: 3}
+  width: 2
+  height: 2
+  upgrades:
+  - <Name>k__BackingField: "Erweitertes \xF6ffentliches Bildungszentrum"
+    <Cost>k__BackingField: 5000
+    <Description>k__BackingField: "Das Bildungs zentrum wird erweitert um die Kapazit\xE4ten
+      zu erh\xF6hen."
+    Modifiers:
+      SatisfactionIncrease: 8
+      <Income>k__BackingField: 300
+    <Prefab>k__BackingField: {fileID: 1824003435095028650, guid: ae8d735025ae42b48a29c894ddd44915, type: 3}
+  - <Name>k__BackingField: "\xF6ffentliches Bildungs Campus"
+    <Cost>k__BackingField: 8000
+    <Description>k__BackingField: "Ein Stadtliches Bildungs Campus welcher den Akademischen
+      durschnitt Lindenthals erh\xF6ht. Hier Bilden und Entwickeln sich deine B\xFCrger
+      und B\xFCrgerinnen."
+    Modifiers:
+      SatisfactionIncrease: 8
+      <Income>k__BackingField: 400
+    <Prefab>k__BackingField: {fileID: 1824003435095028650, guid: 4d941925f35962243b0bd2e89c904d7f, type: 3}

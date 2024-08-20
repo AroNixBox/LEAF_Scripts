@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd6b59b2e9851944a50be9e4972bec3, type: 3}
+  m_Name: Eco-friendly Park
+  m_EditorClassIdentifier: 
+  BaseBuildingInformation:
+    <Name>k__BackingField: Eco-friendly Park
+    <Cost>k__BackingField: 8000
+    <Description>k__BackingField: "Ein Park ist Wichtig f\xFCr Mentale und Physiche
+      Gesundheit der B\xFCrger und B\xFCrgerinnen in Lindenthal."
+    Modifiers:
+      SatisfactionIncrease: 12
+      <Income>k__BackingField: 0
+    <Prefab>k__BackingField: {fileID: 2420138091117467184, guid: 64714017596d32941be0867ae78f9aac, type: 3}
+  width: 1
+  height: 1
+  upgrades:
+  - <Name>k__BackingField: Eco-Friendly Park Expansion
+    <Cost>k__BackingField: 4000
+    <Description>k__BackingField: 'Ein Park in dem Lindenthaler an seine Wurzeln
+      und die Umliegende Natur Erinnert werden. '
+    Modifiers:
+      SatisfactionIncrease: 14
+      <Income>k__BackingField: 50
+    <Prefab>k__BackingField: {fileID: 2420138091117467184, guid: 751b4d0f571c3044b8a2e829aedc15a2, type: 3}

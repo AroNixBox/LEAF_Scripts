@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd6b59b2e9851944a50be9e4972bec3, type: 3}
+  m_Name: Technologie-Innovationshub
+  m_EditorClassIdentifier: 
+  BaseBuildingInformation:
+    <Name>k__BackingField: Technologie-Innovations-Hub
+    <Cost>k__BackingField: 15000
+    <Description>k__BackingField: "Dieses Geb\xE4ude zeigt den Einfluss von Tech-Trend.,
+      es zeigt das Lindenthal anf\xE4ngt in die Zukunft zu Blicken."
+    Modifiers:
+      SatisfactionIncrease: 2
+      <Income>k__BackingField: 600
+    <Prefab>k__BackingField: {fileID: 1824003435095028650, guid: c4ea9742c58c5e548acdb8b2d9e3e7dc, type: 3}
+  width: 1
+  height: 2
+  upgrades:
+  - <Name>k__BackingField: Advanced Tech Innovation Hub
+    <Cost>k__BackingField: 7000
+    <Description>k__BackingField: "Ein weiterer Schritt f\xFCr Lindenthal in eien
+      Technologische und Nachhaltige Zukunft."
+    Modifiers:
+      SatisfactionIncrease: 2
+      <Income>k__BackingField: 800
+    <Prefab>k__BackingField: {fileID: 1824003435095028650, guid: 477dd401ec7496f4588cae5921cfcfcc, type: 3}
+  - <Name>k__BackingField: Tech Research Park
+    <Cost>k__BackingField: 10000
+    <Description>k__BackingField: "Lindenthal ist mit diesem Modernen Technologie
+      Hub in der Moderne angekommen und schafft ein Gutes Umfeld f\xFCr Unternehmer
+      aller Art."
+    Modifiers:
+      SatisfactionIncrease: 3
+      <Income>k__BackingField: 900
+    <Prefab>k__BackingField: {fileID: 1824003435095028650, guid: 0054c9b1c7df1624b9ee36d338ee19fe, type: 3}
+  - <Name>k__BackingField: Global Tech Center
+    <Cost>k__BackingField: 12000
+    <Description>k__BackingField: "Tech-Trend hat deutliche Spuren Hinterlassen.
+      Lindenthal ist was Moderne Technologie angeth f\xFChrend. Viele unternehmen
+      Siedeln sich hier an. Das Deutsche Silicon Valley."
+    Modifiers:
+      SatisfactionIncrease: 5
+      <Income>k__BackingField: 1000
+    <Prefab>k__BackingField: {fileID: 1824003435095028650, guid: d6abdddbf4872a7429bb3090b7fcea10, type: 3}

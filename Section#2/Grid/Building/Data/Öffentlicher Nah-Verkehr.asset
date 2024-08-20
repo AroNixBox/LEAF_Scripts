@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd6b59b2e9851944a50be9e4972bec3, type: 3}
+  m_Name: "\xD6ffentlicher Nah-Verkehr"
+  m_EditorClassIdentifier: 
+  BaseBuildingInformation:
+    <Name>k__BackingField: "\xD6ffentlicher Nah-Verkehr"
+    <Cost>k__BackingField: 15000
+    <Description>k__BackingField: "Eine nachhaltige und kosten g\xFCnstige alternative
+      zum Auto fahren."
+    Modifiers:
+      SatisfactionIncrease: 7
+      <Income>k__BackingField: 3000
+    <Prefab>k__BackingField: {fileID: 2420138091117467184, guid: 7b367664fa7f538488102e5e374ed911, type: 3}
+  width: 1
+  height: 1
+  upgrades:
+  - <Name>k__BackingField: "Erweiterter \xD6ffentlicher Nah-Verkehr"
+    <Cost>k__BackingField: 8000
+    <Description>k__BackingField: "Mehr Stationen und vernetzung/Integrierung in
+      Lindenthal f\xFChrt zu h\xF6herer Nutzung des Nah Verkehrs."
+    Modifiers:
+      SatisfactionIncrease: 5
+      <Income>k__BackingField: 5000
+    <Prefab>k__BackingField: {fileID: 2420138091117467184, guid: c82e4c216a69fdd438500c2eb0c6fc0c, type: 3}
+  - <Name>k__BackingField: "Hochgeschwindigkeits-\xD6PNV-System"
+    <Cost>k__BackingField: 12000
+    <Description>k__BackingField: "H\xF6here P\xFCnktlichkeit und Geschwindigkeit
+      f\xFCr das Transit System."
+    Modifiers:
+      SatisfactionIncrease: 7
+      <Income>k__BackingField: 7000
+    <Prefab>k__BackingField: {fileID: 2420138091117467184, guid: 8cd4e99f20bab2045b80792dc48ea014, type: 3}

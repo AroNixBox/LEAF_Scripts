@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ceb96827bb6afe4888ec7ef4b1ce4b1, type: 3}
+  m_Name: TurnBasedTutorial
+  m_EditorClassIdentifier: 
+  rightScreenSpaceTutorialHint: {fileID: 6507439498565424966, guid: 7ed77100570c44a4b9e98d1081d6be22, type: 3}
+  rightWorldSpaceTutorialHint: {fileID: 4899999846057371014, guid: a7f8521ee77ebc14aac8ead1fa2890bf, type: 3}
+  leftScreenSpaceTutorialHint: {fileID: 5231787521844369243, guid: 0ca85fbd0f4afd1468dd9ade929fda73, type: 3}
+  leftWorldSpaceTutorialHint: {fileID: 6437769725272404659, guid: 07d7cc3d428eb944e810657fb69e96a2, type: 3}
+  tutorialData:
+  - hintText: This is the Money income that you earn each round. You can use this
+      money to construct and upgrade buildings. Below, you can find the breakdown
+      of how your income is calculated.
+    textOrientation: 0
+    anchorPosition: {x: 150, y: 450}
+    hintType: 0
+  - hintText: Citizen Satisfaction is an indicator of how content your citizens are.
+      These values are important for re-election at the end of the game. Citizen
+      Satisfaction is affected by your actions and the buildings you construct.
+    textOrientation: 0
+    anchorPosition: {x: 200, y: -270}
+    hintType: 0
+  - hintText: Lets close this View!
+    textOrientation: 0
+    anchorPosition: {x: 200, y: -1500}
+    hintType: 0
+  - hintText: These are your Action Cards
+    textOrientation: 1
+    anchorPosition: {x: 0, y: 60}
+    hintType: 0
+  - hintText: You can Increase
+    textOrientation: 1
+    anchorPosition: {x: 200, y: 200}
+    hintType: 0
+  - hintText: or Decrease your Taxes!
+    textOrientation: 1
+    anchorPosition: {x: 200, y: -600}
+    hintType: 0
+  - hintText: Click on a grey space on the Map in order to select that Cell!
+    textOrientation: 1
+    anchorPosition: {x: 1.5, y: 0.5}
+    hintType: 3
+  - hintText: Lets get some Information about this Building
+    textOrientation: 1
+    anchorPosition: {x: 2.75, y: 3}
+    hintType: 1
+  - hintText: Here is some stats about this Building
+    textOrientation: 1
+    anchorPosition: {x: -150, y: 420}
+    hintType: 0
+  - hintText: 
+    textOrientation: 1
+    anchorPosition: {x: 803, y: 387}
+    hintType: 0
+  - hintText: Here you can Scroll between all the buildings
+    textOrientation: 1
+    anchorPosition: {x: 1.25, y: 3}
+    hintType: 1
+  - hintText: Lets Build a eco friendly Parkanlage
+    textOrientation: 1
+    anchorPosition: {x: 0, y: 3}
+    hintType: 1
+  - hintText: Building can also be upgraded, click on the tiny i to get information
+      about the upgrades of this building
+    textOrientation: 1
+    anchorPosition: {x: -2.75, y: 2.75}
+    hintType: 2
+  - hintText: Here you can see what the Values of the Building will look like once
+      it is upgraded
+    textOrientation: 1
+    anchorPosition: {x: -150, y: 420}
+    hintType: 0
+  - hintText: 
+    textOrientation: 1
+    anchorPosition: {x: 803, y: 387}
+    hintType: 0
+  - hintText: Let's finish this turn!
+    textOrientation: 1
+    anchorPosition: {x: 206, y: -1457}
+    hintType: 0

@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd6b59b2e9851944a50be9e4972bec3, type: 3}
+  m_Name: Moderne Wasseraufbereitungsanlage
+  m_EditorClassIdentifier: 
+  BaseBuildingInformation:
+    <Name>k__BackingField: Moderne Wasseraufbereitungsanlage
+    <Cost>k__BackingField: 12000
+    <Description>k__BackingField: "Bereitet Trinkbares Wasser auf f\xFCr Lindenthaler."
+    Modifiers:
+      SatisfactionIncrease: 5
+      <Income>k__BackingField: 1000
+    <Prefab>k__BackingField: {fileID: 2420138091117467184, guid: 20a8fcc3219cf3940aadf34b58564b5c, type: 3}
+  width: 2
+  height: 2
+  upgrades:
+  - <Name>k__BackingField: Erweiterte Moderne Wasseraufbereitungsanlage
+    <Cost>k__BackingField: 6000
+    <Description>k__BackingField: "Bereitet mehr Trinkbares Wasser auf f\xFCr Lindenthaler,
+      aus den Umliegenden Natt\xFCrlichen Quellen."
+    Modifiers:
+      SatisfactionIncrease: 5
+      <Income>k__BackingField: 1200
+    <Prefab>k__BackingField: {fileID: 2420138091117467184, guid: 0074894a6013d5c4c9b12110f98310d9, type: 3}
+  - <Name>k__BackingField: Sustainable Wasseraufbereitungsanlage
+    <Cost>k__BackingField: 8000
+    <Description>k__BackingField: "Lindenthal ist seit dem Erbau dieser Modernen
+      Anlage Bekannt f\xFCr das Gute Leitungswasser."
+    Modifiers:
+      SatisfactionIncrease: 6
+      <Income>k__BackingField: 1400
+    <Prefab>k__BackingField: {fileID: 2420138091117467184, guid: 6f86a6d9e1cfc724f9866a87e0f879af, type: 3}
